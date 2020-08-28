@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "s3-sampkle"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-z8szs4hb6hp0"
+s3_prefix = "s3-sampkle"
+region = "ap-southeast-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
